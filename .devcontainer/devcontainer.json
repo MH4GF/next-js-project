@@ -1,0 +1,21 @@
+{
+  "name": "next-js-template",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "settings": {
+    "cSpell.words": [],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions": [
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "yarn install",
+  "workspaceFolder": "/app"
+}

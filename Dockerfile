@@ -1,0 +1,9 @@
+FROM node:14
+
+ENV WORKDIR /app
+WORKDIR $WORKDIR
+COPY package.json yarn.lock $WORKDIR
+RUN yarn install
+COPY . $WORKDIR
+EXPOSE 3000
+ENV HOST 0.0.0.0
