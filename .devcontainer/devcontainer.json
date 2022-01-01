@@ -17,7 +17,8 @@
     "formulahendry.auto-rename-tag",
     "formulahendry.auto-close-tag",
     "esbenp.prettier-vscode",
-    "jebbs.plantuml"
+    "jebbs.plantuml",
+    "steoates.autoimport"
   ],
   "postCreateCommand": "yarn install",
   "workspaceFolder": "/app"
