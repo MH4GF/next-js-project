@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test:compile": "tsc",
     "start": "next start",
     "lint": "yarn lint:js && yarn lint:style",
     "lint:js": "next lint",
