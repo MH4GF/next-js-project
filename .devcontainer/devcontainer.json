@@ -6,8 +6,6 @@
     "cSpell.words": [],
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "plantuml.server": "http://plantuml:8080",
-    "plantuml.render": "PlantUMLServer"
   },
   "extensions": [
     "yzhang.markdown-all-in-one",
@@ -17,7 +15,6 @@
     "formulahendry.auto-rename-tag",
     "formulahendry.auto-close-tag",
     "esbenp.prettier-vscode",
-    "jebbs.plantuml",
     "steoates.autoimport"
   ],
   "postCreateCommand": "yarn install",
