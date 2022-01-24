@@ -1,8 +1,10 @@
 import type { NextPage } from 'next'
 import React from 'react'
 
+import { Hello } from '~/src/components/Hello'
+
 const Page: NextPage = () => {
-  return <div>hello world!</div>
+  return <Hello />
 }
 
 export default Page
