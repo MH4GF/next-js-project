@@ -31,7 +31,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/node": "18.11.11",
     "@types/react": "18.0.26",
-    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.45.1",
     "babel-loader": "^9.1.0",
     "dependency-cruiser": "^12.1.0",
